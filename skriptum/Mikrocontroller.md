@@ -1,4 +1,3 @@
-
 # Mikrocontroller
 
 Ein **Mikrocontroller** ist ein kleines, integriertes Computersystem, das häufig in eingebetteten Systemen verwendet wird. Er kombiniert einen Prozessor, Speicher und verschiedene Peripherie-Komponenten auf einem einzigen Chip und ist speziell für die Steuerung und Regelung elektronischer Systeme ausgelegt. Mikrocontroller sind in einer Vielzahl von Geräten zu finden, von einfachen Haushaltsgeräten bis hin zu komplexen industriellen Steuerungssystemen.

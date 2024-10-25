@@ -12,6 +12,7 @@
 * [Transistoren](skriptum/Transistoren/README.md)
     * [Bipolartransistoren](skriptum/Transistoren/bipolartransistoren.md)
     * [Feldeffekttransistoren](skriptum/Transistoren/feldeffekttransistoren.md)
+* [Mikrocontroller](skriptum/Mikrocontroller.md)
 
 
 ### Protokolle

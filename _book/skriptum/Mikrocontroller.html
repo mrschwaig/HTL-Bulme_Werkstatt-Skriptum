@@ -1,0 +1,511 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Mikrocontroller · HonKit</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="HonKit 6.0.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/honkit-plugin-alert-msg/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/honkit-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../protokolle/einheit-23.10.html" />
+    
+    
+    <link rel="prev" href="Transistoren/feldeffekttransistoren.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book honkit-cloak">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Übersicht</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Übersicht
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Skriptum</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <span>
+            
+                    
+                    Grundlagen
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="Grundlagen/widerstand.html">
+            
+                <a href="Grundlagen/widerstand.html">
+            
+                    
+                    Widerstand
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="Grundlagen/kondensator.html">
+            
+                <a href="Grundlagen/kondensator.html">
+            
+                    
+                    Kondensator
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="Grundlagen/diode.html">
+            
+                <a href="Grundlagen/diode.html">
+            
+                    
+                    Diode
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="Transistoren/">
+            
+                <a href="Transistoren/">
+            
+                    
+                    Transistoren
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="Transistoren/bipolartransistoren.html">
+            
+                <a href="Transistoren/bipolartransistoren.html">
+            
+                    
+                    Bipolartransistoren
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="Transistoren/feldeffekttransistoren.html">
+            
+                <a href="Transistoren/feldeffekttransistoren.html">
+            
+                    
+                    Feldeffekttransistoren
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.3" data-path="Mikrocontroller.html">
+            
+                <a href="Mikrocontroller.html">
+            
+                    
+                    Mikrocontroller
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Protokolle</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../protokolle/einheit-23.10.html">
+            
+                <a href="../protokolle/einheit-23.10.html">
+            
+                    
+                    Einheit-23.10
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://github.com/honkit/honkit" target="blank" class="gitbook-link">
+            Published with HonKit
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Mikrocontroller</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="mikrocontroller">Mikrocontroller</h1>
+<p>Ein <strong>Mikrocontroller</strong> ist ein kleines, integriertes Computersystem, das häufig in eingebetteten Systemen verwendet wird. Er kombiniert einen Prozessor, Speicher und verschiedene Peripherie-Komponenten auf einem einzigen Chip und ist speziell für die Steuerung und Regelung elektronischer Systeme ausgelegt. Mikrocontroller sind in einer Vielzahl von Geräten zu finden, von einfachen Haushaltsgeräten bis hin zu komplexen industriellen Steuerungssystemen.</p>
+<h2 id="funktionsweise-eines-mikrocontrollers">Funktionsweise eines Mikrocontrollers</h2>
+<p>Der Mikrocontroller arbeitet nach einem einfachen Schema:</p>
+<ol>
+<li><strong>Eingabe</strong>: Über digitale oder analoge Pins empfängt er Signale von Sensoren, Tastern oder anderen Bauteilen.</li>
+<li><strong>Verarbeitung</strong>: Im Mikrocontroller wird der empfangene Input durch den Prozessor (CPU) verarbeitet. Der Code, der im internen Speicher gespeichert ist, bestimmt, wie der Mikrocontroller auf die Eingabe reagieren soll.</li>
+<li><strong>Ausgabe</strong>: Die verarbeiteten Daten werden in Form von Steuersignalen an die Ausgänge weitergeleitet, um Aktoren, Motoren, LEDs oder andere Komponenten zu steuern.</li>
+</ol>
+<h2 id="arduino-mikrocontroller-board">Arduino: Mikrocontroller-Board</h2>
+<p>Das <strong>Arduino-Board</strong> ist eine weit verbreitete Plattform, die einen Mikrocontroller mit einem leicht zugänglichen Entwicklungsumfeld kombiniert. Es wird häufig in Bildungs- und Hobbyprojekten eingesetzt. Ein Arduino besteht aus dem Mikrocontroller selbst, einem Spannungsregler, einem Quarz, Anschlüssen und einer USB-Schnittstelle.</p>
+<h3 id="anschlüsse-des-arduino-uno">Anschlüsse des Arduino Uno</h3>
+<p>Das <strong>Arduino Uno</strong> ist eines der bekanntesten Arduino-Boards und basiert auf dem ATmega328P-Mikrocontroller. Hier sind die wichtigsten Anschlüsse:</p>
+<ol>
+<li><p><strong>Stromanschlüsse</strong>:</p>
+<ul>
+<li><strong>Vin</strong>: Versorgungsspannung (meist 7–12 V), die direkt an den Mikrocontroller weitergeleitet wird.</li>
+<li><strong>5V und 3.3V</strong>: Diese Anschlüsse liefern 5V und 3,3V Spannung, um externe Komponenten zu versorgen.</li>
+<li><strong>GND</strong>: Die Masse (Ground), die mit externen Komponenten verbunden werden muss, um eine gemeinsame Bezugsspannung zu gewährleisten.</li>
+</ul>
+</li>
+<li><p><strong>Digitale Pins (D0–D13)</strong>:</p>
+<ul>
+<li>Diese Pins können als digitale Eingänge oder Ausgänge genutzt werden.</li>
+<li>Einige Pins haben spezielle Funktionen, z. B. <strong>D0</strong> und <strong>D1</strong> (Rx, Tx) zur seriellen Kommunikation.</li>
+<li><strong>PWM-Pins</strong>: Die Pins <strong>D3, D5, D6, D9, D10</strong> und <strong>D11</strong> unterstützen <strong>PWM-Signale</strong> (Pulsweitenmodulation) zur Simulation analoger Ausgänge.</li>
+</ul>
+</li>
+<li><p><strong>Analoge Pins (A0–A5)</strong>:</p>
+<ul>
+<li>Die analogen Eingänge können Spannungen im Bereich von 0 bis 5 V messen und in digitale Werte (0–1023) umwandeln.</li>
+<li>Diese Pins sind nützlich, um analoge Sensoren wie Temperaturfühler oder Potentiometer anzuschließen.</li>
+</ul>
+</li>
+<li><p><strong>Reset-Pin</strong>: Wird genutzt, um den Mikrocontroller neu zu starten.</p>
+</li>
+<li><p><strong>I2C (A4 – SDA, A5 – SCL)</strong>: Diese Pins dienen der Kommunikation mit I2C-fähigen Geräten.</p>
+</li>
+<li><p><strong>SPI-Schnittstelle (Pins 10–13)</strong>: Diese wird für die Kommunikation mit Geräten verwendet, die das SPI-Protokoll unterstützen.</p>
+</li>
+</ol>
+<h2 id="arduino-c-framework-platformio">Arduino C++ Framework (PlatformIO)</h2>
+<p>Das <strong>Arduino C++ Framework</strong> ist eine leicht zu verwendende Entwicklungsumgebung für Arduino-Boards und wird häufig über <strong>PlatformIO</strong> entwickelt. PlatformIO bietet zahlreiche Werkzeuge und Bibliotheken und ist eine erweiterte, plattformübergreifende Umgebung für eingebettete Systeme.</p>
+<h3 id="grundlagen-des-arduino-c-frameworks">Grundlagen des Arduino C++ Frameworks</h3>
+<ol>
+<li><p><strong>Setup- und Loop-Funktionen</strong>:</p>
+<ul>
+<li><code>Setup()</code>: Diese Funktion wird einmalig beim Start ausgeführt und dient zur Initialisierung der Pins und Kommunikation.</li>
+<li><code>Loop()</code>: Hier befindet sich die Hauptschleife des Programms. Der Code in dieser Funktion wird fortlaufend ausgeführt, solange der Mikrocontroller läuft.</li>
+</ul>
+</li>
+<li><p><strong>Digitaler I/O</strong>:</p>
+<ul>
+<li><code>pinMode(pin, mode)</code>: Setzt einen Pin als Eingang (<code>INPUT</code>) oder Ausgang (<code>OUTPUT</code>).</li>
+<li><code>digitalWrite(pin, value)</code>: Setzt den digitalen Pin auf <code>HIGH</code> (5V) oder <code>LOW</code> (0V).</li>
+<li><code>digitalRead(pin)</code>: Liest den Zustand eines digitalen Eingangs (HIGH oder LOW).</li>
+</ul>
+</li>
+<li><p><strong>Analoger I/O</strong>:</p>
+<ul>
+<li><code>analogRead(pin)</code>: Liest den Wert eines analogen Eingangs (Wertebereich 0–1023).</li>
+<li><code>analogWrite(pin, value)</code>: Gibt eine PWM-Signalstärke aus (Wertebereich 0–255).</li>
+</ul>
+</li>
+<li><p><strong>Serielle Kommunikation</strong>:</p>
+<ul>
+<li><code>Serial.begin(baudrate)</code>: Startet die serielle Kommunikation.</li>
+<li><code>Serial.print() und Serial.println()</code>: Wird verwendet, um Daten über den USB-Port auszugeben, z. B. zur Fehlersuche.</li>
+</ul>
+</li>
+</ol>
+<h2 id="pwm-pulsweitenmodulation">PWM (Pulsweitenmodulation)</h2>
+<p><strong>PWM (Pulsweitenmodulation)</strong> ist eine Methode, mit der ein digitales Signal so manipuliert wird, dass es wie ein analoges Signal wirkt. Dabei wird ein digitaler Ausgang schnell zwischen <code>HIGH</code> und <code>LOW</code> geschaltet. Der Anteil der Zeit, die der Ausgang auf <code>HIGH</code> steht, wird als <strong>Duty Cycle</strong> bezeichnet und in Prozent ausgedrückt. Ein Duty Cycle von 100 % bedeutet, dass der Ausgang dauerhaft auf <code>HIGH</code> steht, ein Duty Cycle von 0 % bedeutet, dass der Ausgang auf <code>LOW</code> bleibt.</p>
+<ul>
+<li><strong>Beispiel</strong>: Mit einem Duty Cycle von 50 % (50 % <code>HIGH</code>, 50 % <code>LOW</code>) entspricht das Ausgangssignal im Durchschnitt einer Spannung von 2,5V (bei einem 5V Ausgang).</li>
+</ul>
+<p>PWM wird häufig zur Steuerung von LEDs (Helligkeit) und Motoren (Drehzahl) verwendet.</p>
+<h2 id="unterschied-zwischen-analogen-und-digitalen-signalen">Unterschied zwischen analogen und digitalen Signalen</h2>
+<ul>
+<li><strong>Digitale Signale</strong> bestehen nur aus zwei Zuständen: <code>HIGH</code> (5V) und <code>LOW</code> (0V). Sie sind klar definiert und werden in digitalen Schaltungen verwendet.</li>
+<li><strong>Analoge Signale</strong> können kontinuierlich variierende Spannungen annehmen und repräsentieren damit eine Vielzahl von Werten. Solche Signale sind typisch für Sensoren, die Umgebungsvariablen messen (z. B. Temperatur, Licht).</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Transistoren/feldeffekttransistoren.html" class="navigation navigation-prev " aria-label="Previous page: Feldeffekttransistoren">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../protokolle/einheit-23.10.html" class="navigation navigation-next " aria-label="Next page: Einheit-23.10">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Mikrocontroller","level":"2.3","depth":1,"next":{"title":"Einheit-23.10","level":"3.1","depth":1,"path":"protokolle/einheit-23.10.md","ref":"protokolle/einheit-23.10.md","articles":[]},"previous":{"title":"Feldeffekttransistoren","level":"2.2.2","depth":2,"path":"skriptum/Transistoren/feldeffekttransistoren.md","ref":"skriptum/Transistoren/feldeffekttransistoren.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["mermaid-md-adoc","alert-msg","katex"],"pluginsConfig":{"mermaid-md-adoc":{},"alert-msg":{"note":{"label":"Note","icon":"fa fa-info-circle","className":"info"},"tip":{"label":"Tip","icon":"fa fa-lightbulb-o","className":"tip"},"warning":{"label":"Warning","icon":"fa fa-exclamation-triangle","className":"warning"},"danger":{"label":"Attention","icon":"fa fa-ban","className":"danger"}},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"skriptum/Mikrocontroller.md","mtime":"2024-10-25T19:35:06.215Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2024-10-25T19:38:17.102Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <noscript>
+        <style>
+            .honkit-cloak {
+                display: block !important;
+            }
+        </style>
+    </noscript>
+    <script>
+        // Restore sidebar state as critical path for prevent layout shift
+        function __init__getSidebarState(defaultValue){
+            var baseKey = "";
+            var key = baseKey + ":sidebar";
+            try {
+                var value = localStorage[key];
+                if (value === undefined) {
+                    return defaultValue;
+                }
+                var parsed = JSON.parse(value);
+                return parsed == null ? defaultValue : parsed;
+            } catch (e) {
+                return defaultValue;
+            }
+        }
+        function __init__restoreLastSidebarState() {
+            var isMobile = window.matchMedia("(max-width: 600px)").matches;
+            if (isMobile) {
+                // Init last state if not mobile
+                return;
+            }
+            var sidebarState = __init__getSidebarState(true);
+            var book = document.querySelector(".book");
+            // Show sidebar if it enabled
+            if (sidebarState && book) {
+                book.classList.add("without-animation", "with-summary");
+            }
+        }
+
+        try {
+            __init__restoreLastSidebarState();
+        } finally {
+            var book = document.querySelector(".book");
+            book.classList.remove("honkit-cloak");
+        }
+    </script>
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/honkit-plugin-mermaid-md-adoc/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/honkit-plugin-mermaid-md-adoc/mermaid.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
