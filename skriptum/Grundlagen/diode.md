@@ -16,11 +16,13 @@ Im **p-n-Übergang** der Diode treffen Elektronen aus dem n-Bereich auf Löcher 
 
 2. **Sperrrichtung**: Bei einer negativen Spannung am p-Bereich und einer positiven am n-Bereich vergrößert sich die Sperrschicht, und die Diode sperrt den Stromfluss. Ab einer bestimmten Spannung, der **Durchbruchspannung** `U_BR`, kann es jedoch zu einem plötzlichen Anstieg des Stroms kommen.
 
-## Charakteristische Diodenkennlinie
+## Diodenkennlinie
 
 Die **Diodenkennlinie** beschreibt die Beziehung zwischen der angelegten Spannung $$ U $$ und dem fließenden Strom $$ I $$ und zeigt zwei Hauptbereiche:
 - **Durchlasskennlinie**: Sobald `U` ≤ `U_F`, steigt der Strom exponentiell an.
 - **Sperrkennlinie**: Bei negativen Spannungen fließt nur ein minimaler Sperrstrom, bis die Durchbruchspannung `U_BR` erreicht wird.
+
+![Diodenkennlinie](/images/diodenkennlinie.png)
 
 ### Strom-Spannungs-Gleichung der Diode
 
@@ -46,9 +48,3 @@ wobei:
 5. **Fotodiode**: Diese Diode ist lichtempfindlich und erzeugt einen Strom, wenn sie beleuchtet wird. Sie wird in Lichtmessgeräten, Solarpanels und als Sensor in optischen Schaltungen verwendet.
 
 6. **Avalanche-Diode**: Sie ist für hohe Durchbruchspannungen ausgelegt und wird meist in Hochspannungsanwendungen oder zum Schutz vor Überspannung verwendet.
-
-## Diodenkennlinie und wichtige Formeln
-
-Die **Diodenkennlinie** zeigt den exponentiellen Anstieg des Stroms bei Spannungen oberhalb der Durchlassspannung und den Sperrbereich. Der Sperrstrom ist klein, bis die Diode in den **Durchbruchbereich** gelangt.
-
-![Diodenkennlinie](/images/diodenkennlinie.png)
