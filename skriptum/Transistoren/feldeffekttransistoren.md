@@ -4,7 +4,7 @@
 Ein **Feldeffekttransistor** (FET, Field Effect Transistor) ist ein Halbleiterbauelement, das den Stromfluss durch ein elektrisches Feld steuert und in vielen analogen sowie digitalen Schaltungen verwendet wird. Er hat im Vergleich zu Bipolartransistoren den Vorteil eines geringen Eingangsstroms und eignet sich gut für Anwendungen, bei denen die Steuerung mit einer Spannung anstatt eines Stroms erforderlich ist.
 
 {% alert type="note", style="callout" %}
-Dies macht ihn für Mikrocontroller (digitale IO) essenziell, da diese ausschließllich mit Spnnung arbeiten. Er ist zudem deutlich schneller im schalten als ein gewöhnlicher Bipolartransistor.
+Dies macht ihn für Mikrocontroller (digitale IO) essenziell, da diese ausschließllich mit Spannung arbeiten. Er ist zudem deutlich schneller im schalten als ein gewöhnlicher Bipolartransistor.
 {% endalert %}
 
 FETs haben drei Hauptanschlüsse: **Gate** (G), **Drain** (D) und **Source** (S). Die Funktion des FET basiert darauf, dass die Spannung am Gate den Stromfluss zwischen Drain und Source steuert. Es gibt zwei Hauptarten von FETs:

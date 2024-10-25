@@ -4,6 +4,7 @@
   },
   "dependencies": {
     "honkit-plugin-alert-msg": "^0.0.2",
+    "honkit-plugin-katex": "^1.1.7",
     "honkit-plugin-mermaid-md-adoc": "^0.0.8",
     "punycode": "^2.3.1"
   }

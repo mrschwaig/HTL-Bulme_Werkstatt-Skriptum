@@ -8,8 +8,11 @@
 * Grundlagen
     * [Widerstand](skriptum/Grundlagen/widerstand.md)
     * [Kondensator](skriptum/Grundlagen/kondensator.md)
+    * [Diode](skriptum/Grundlagen/diode.md)
 * [Transistoren](skriptum/Transistoren/README.md)
     * [Bipolartransistoren](skriptum/Transistoren/bipolartransistoren.md)
     * [Feldeffekttransistoren](skriptum/Transistoren/feldeffekttransistoren.md)
+
+
 ### Protokolle
 * [Einheit-23.10](protokolle/einheit-23.10.md)
