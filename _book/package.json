@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "honkit": "^6.0.2"
+  },
+  "dependencies": {
+    "honkit-plugin-mermaid-md-adoc": "^0.0.8",
+    "punycode": "^2.3.1"
+  }
+}
