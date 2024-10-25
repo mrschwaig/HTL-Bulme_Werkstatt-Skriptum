@@ -18,7 +18,7 @@ Im **p-n-Übergang** der Diode treffen Elektronen aus dem n-Bereich auf Löcher 
 
 ## Diodenkennlinie
 
-Die **Diodenkennlinie** beschreibt die Beziehung zwischen der angelegten Spannung $$ U $$ und dem fließenden Strom $$ I $$ und zeigt zwei Hauptbereiche:
+Die **Diodenkennlinie** beschreibt die Beziehung zwischen der angelegten Spannung `U` und dem fließenden Strom `I` und zeigt zwei Hauptbereiche:
 - **Durchlasskennlinie**: Sobald `U` ≤ `U_F`, steigt der Strom exponentiell an.
 - **Sperrkennlinie**: Bei negativen Spannungen fließt nur ein minimaler Sperrstrom, bis die Durchbruchspannung `U_BR` erreicht wird.
 
