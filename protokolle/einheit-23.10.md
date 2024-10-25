@@ -34,13 +34,14 @@ Ziel der Ampelschaltung war es, eine Ampelschaltung umzusetzen, welche nach den 
 
 Der erste Schritt war, einen funktionierenden Schaltplan mit easyEDA umzusetzen.
 
-> [!NOTE]
-> EasyEDA hat folgende Vorteile im Vergleich zu anderen EDA's:
-> 1. Direkte Anbindung zu JLCPCB
->    - Man kann dadurch direkt Leiterplatten von der Software via JLCPCB fertigen lassen
->    - Libary welche alle aktuellen Bauteile verfügbar hat (Via Rechtsklick kann auch das Datenblatt angezeigt werden)
-> 3. Kostenlos für alle Geräte (und im Web) verfügbar
-> 4. MultiSIM ähnliche Simulationstools
+{% alert type="note", style="callout" %}
+EasyEDA hat folgende Vorteile im Vergleich zu anderen EDA's:
+1. Direkte Anbindung zu JLCPCB
+  - Man kann dadurch direkt Leiterplatten von der Software via JLCPCB fertigen lassen
+  - Libary welche alle aktuellen Bauteile verfügbar hat (Via Rechtsklick kann auch das Datenblatt angezeigt werden)
+3. Kostenlos für alle Geräte (und im Web) verfügbar
+4. MultiSIM ähnliche Simulationstools
+{% endalert %}
 
 
 Entstanden ist folgender Schlatplan:
