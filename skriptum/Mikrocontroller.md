@@ -24,8 +24,8 @@ Das **Arduino Uno** ist eines der bekanntesten Arduino-Boards und basiert auf de
 
 2. **Digitale Pins (D0–D13)**:
    - Diese Pins können als digitale Eingänge oder Ausgänge genutzt werden.
-   - Einige Pins haben spezielle Funktionen, z. B. **D0** und **D1** (Rx, Tx) zur seriellen Kommunikation.
-   - **PWM-Pins**: Die Pins **D3, D5, D6, D9, D10** und **D11** unterstützen **PWM-Signale** (Pulsweitenmodulation) zur Simulation analoger Ausgänge.
+   - Einige Pins haben spezielle Funktionen, z. B. `D0` und `D1` (Rx, Tx) zur seriellen Kommunikation.
+   - **PWM-Pins**: Die Pins `D3`, `D5`, `D6`, `D9`, `D10` und `D11` unterstützen **PWM-Signale** (Pulsweitenmodulation) zur Simulation analoger Ausgänge.
 
 3. **Analoge Pins (A0–A5)**:
    - Die analogen Eingänge können Spannungen im Bereich von 0 bis 5 V messen und in digitale Werte (0–1023) umwandeln.
