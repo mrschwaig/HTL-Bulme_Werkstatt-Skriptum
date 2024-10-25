@@ -29,18 +29,18 @@ Eine Tabelle der Farbcodes wäre folgende:
 
 ## Funktionsweise
 
-Ein Widerstand besteht aus einem Material mit hoher elektrischer Leitfähigkeit, das den Stromfluss hemmt. Die Spannung \( U \) und der Strom \( I \) stehen im Verhältnis zueinander, das durch das **Ohmsche Gesetz** beschrieben wird:
+Ein Widerstand besteht aus einem Material mit hoher elektrischer Leitfähigkeit, das den Stromfluss hemmt. Die Spannung `U` und der Strom `I` stehen im Verhältnis zueinander, das durch das **Ohmsche Gesetz** beschrieben wird:
 
-\[ R = \frac{U}{I} \]
+$ R = \frac{U}{I} $
 
-wobei \( R \) der Widerstand ist.
+wobei `R` der Widerstand ist.
 
 
 ## Berechnung
 
 Zur Berechnung des Gesamtwiderstandes bei mehreren Widerständen im Stromkreis gibt es zwei Fälle:
 
-1. **Reihenschaltung**: Die Widerstände werden addiert, also \( R_{\text{ges}} = R_1 + R_2 + \ldots + R_n \).
-2. **Parallelschaltung**: Die Kehrwerte der Widerstände werden addiert, also \( \frac{1}{R_{\text{ges}}} = \frac{1}{R_1} + \frac{1}{R_2} + \ldots + \frac{1}{R_n} \).
+1. **Reihenschaltung**: Die Widerstände werden addiert, also $ R_{\text{ges}} = R_1 + R_2 + \ldots + R_n $.
+2. **Parallelschaltung**: Die Kehrwerte der Widerstände werden addiert, also $ \frac{1}{R_{\text{ges}}} = \frac{1}{R_1} + \frac{1}{R_2} + \ldots + \frac{1}{R_n} $.
 
 Widerstände sind entscheidende Bauteile in der Elektrotechnik, die in nahezu jedem elektronischen Gerät zu finden sind.
