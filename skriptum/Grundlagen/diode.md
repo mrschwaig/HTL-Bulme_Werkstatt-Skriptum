@@ -8,30 +8,28 @@ Im **p-n-Übergang** der Diode treffen Elektronen aus dem n-Bereich auf Löcher 
 
 ### Spannungsmodi der Diode
 
-1. **Durchlassrichtung**: Bei einer positiven Spannung am p-Bereich und einer negativen am n-Bereich verringert sich die Sperrschicht, und die Diode leitet Strom. Die Mindestspannung, die zum Leiten benötigt wird, ist die **Durchlassspannung** $$ U_F $$.
+1. **Durchlassrichtung**: Bei einer positiven Spannung am p-Bereich und einer negativen am n-Bereich verringert sich die Sperrschicht, und die Diode leitet Strom. Die Mindestspannung, die zum Leiten benötigt wird, ist die **Durchlassspannung** `U_F`.
    
-   Für Siliziumdioden liegt diese Spannung bei etwa $$ 0.7 \, V $$, für Germaniumdioden bei $$ 0.3 \, V $$.
+   Für Siliziumdioden liegt diese Spannung bei etwa `0.7 V`, für Germaniumdioden bei `0.3 V`.
 
-2. **Sperrrichtung**: Bei einer negativen Spannung am p-Bereich und einer positiven am n-Bereich vergrößert sich die Sperrschicht, und die Diode sperrt den Stromfluss. Ab einer bestimmten Spannung, der **Durchbruchspannung** $$ U_{BR} $$, kann es jedoch zu einem plötzlichen Anstieg des Stroms kommen.
+2. **Sperrrichtung**: Bei einer negativen Spannung am p-Bereich und einer positiven am n-Bereich vergrößert sich die Sperrschicht, und die Diode sperrt den Stromfluss. Ab einer bestimmten Spannung, der **Durchbruchspannung** `U_BR`, kann es jedoch zu einem plötzlichen Anstieg des Stroms kommen.
 
 ## Charakteristische Diodenkennlinie
 
 Die **Diodenkennlinie** beschreibt die Beziehung zwischen der angelegten Spannung $$ U $$ und dem fließenden Strom $$ I $$ und zeigt zwei Hauptbereiche:
-- **Durchlasskennlinie**: Sobald $$ U \geq U_F $$, steigt der Strom exponentiell an.
-- **Sperrkennlinie**: Bei negativen Spannungen fließt nur ein minimaler Sperrstrom, bis die Durchbruchspannung $$ U_{BR} $$ erreicht wird.
+- **Durchlasskennlinie**: Sobald `U` ≤ `U_F`, steigt der Strom exponentiell an.
+- **Sperrkennlinie**: Bei negativen Spannungen fließt nur ein minimaler Sperrstrom, bis die Durchbruchspannung `U_BR` erreicht wird.
 
 ### Strom-Spannungs-Gleichung der Diode
 
 Die Strom-Spannungs-Charakteristik einer idealen Diode wird durch die **Diodengleichung** beschrieben:
-$$
-I = I_S \cdot \left( e^{\frac{U}{n \cdot V_T}} - 1 \right)
-$$
+$$I = I_S \cdot \left( e^{\frac{U}{n \cdot V_T}} - 1 \right)$$
 wobei:
-- $$ I $$: der Diodenstrom,
-- $$ I_S $$: der **Sättigungsstrom** (typisch sehr klein),
-- $$ U $$: die anliegende Spannung,
-- $$ n $$: der Idealfaktor (meistens 1 bis 2),
-- $$ V_T $$: die **thermische Spannung** $$ V_T = \frac{k \cdot T}{q} \approx 26 \, mV $$ bei Raumtemperatur (300 K).
+- `I`: der Diodenstrom,
+- `I_S`: der **Sättigungsstrom** (typisch sehr klein),
+- `U`: die anliegende Spannung,
+- `n`: der Idealfaktor (meistens 1 bis 2),
+- `V_T`: die **thermische Spannung**: $$ _T = \frac{k \cdot T}{q} = 26 \, mV $$ bei Raumtemperatur (300 K).
 
 ## Typen von Dioden und ihre Anwendungen
 
@@ -56,17 +54,9 @@ Die **Diodenkennlinie** zeigt den exponentiellen Anstieg des Stroms bei Spannung
 Angenommen, wir haben eine Siliziumdiode mit einem Sättigungsstrom $$ I_S = 1 \, nA $$ und einer Spannung von $$ U = 0.7 \, V $$ bei Raumtemperatur (26 mV thermische Spannung).
 
 Der Diodenstrom ist dann:
-$$
-I = 1 \, nA \cdot \left( e^{\frac{0.7}{0.026}} - 1 \right) \approx 1 \, nA \cdot (10^9 - 1) \approx 1 \, A
-$$
+$$ I = 1 \, nA \cdot \left( e^{\frac{0.7}{0.026}} - 1 \right) = 1 \, nA \cdot (10^9 - 1) = 1 \, A $$
 
 ### Beispiel: Berechnung der Zener-Diode als Spannungsstabilisator
 
 Eine Zener-Diode mit einer Zenerspannung $$ U_Z = 5.1 \, V $$ und einem Lastwiderstand $$ R_L = 1 \, k\Omega $$ wird an eine Spannungsquelle von $$ 10 \, V $$ angeschlossen. Der Strom $$ I_Z $$ durch die Zener-Diode beträgt:
-$$
-I_Z = \frac{U_{in} - U_Z}{R_L} = \frac{10 - 5.1}{1000} = 4.9 \, mA
-$$
-
-## Zusammenfassung
-
-Dioden sind wesentliche Bauelemente in der Elektronik, die durch ihre Gleichrichtungsfunktion, die Stromfluss nur in einer Richtung ermöglichen, und ihre speziellen Eigenschaften (wie bei Zener- oder Schottky-Dioden) vielseitige Anwendungen ermöglichen. Sie sind unersetzlich in Gleichrichtern, Spannungsreglern, Beleuchtung und Sensortechnik und spielen eine zentrale Rolle in der Schaltungsentwicklung.
+$$I_Z = \frac{U_{in} - U_Z}{R_L} = \frac{10 - 5.1}{1000} = 4.9 \, mA$$
