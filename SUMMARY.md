@@ -5,7 +5,7 @@
 
 ### Skriptum
 
-* [Grundlagen]
+* Grundlagen
     * [Widerstand](skriptum/Grundlagen/widerstand.md)
     * [Kondensator](skriptum/Grundlagen/kondensator.md)
 
