@@ -2,6 +2,8 @@
 
 Eine **Diode** ist ein elektronisches Bauelement, das den Stromfluss in nur eine Richtung erlaubt. Sie besteht in der Regel aus einem **p-n-Übergang**, der durch zwei unterschiedlich dotierte Halbleitermaterialien gebildet wird: eine **p-dotierte** und eine **n-dotierte** Schicht. Dioden finden in zahlreichen elektronischen Anwendungen Verwendung, von Gleichrichtern und Spannungsreglern bis hin zu Signalverarbeitung und Lichtemission.
 
+![Aufbau einer Diode](/images/diode-aufbau.png)
+
 ## Grundlegende Funktionsweise einer Diode
 
 Im **p-n-Übergang** der Diode treffen Elektronen aus dem n-Bereich auf Löcher aus dem p-Bereich, wodurch eine **Sperrschicht** entsteht. Diese Sperrschicht wirkt als Barriere für den Stromfluss. Sobald eine bestimmte Spannung (die sogenannte **Durchlassspannung**) an die Diode angelegt wird, überwindet der Strom diese Barriere und fließt durch die Diode.
@@ -49,14 +51,4 @@ wobei:
 
 Die **Diodenkennlinie** zeigt den exponentiellen Anstieg des Stroms bei Spannungen oberhalb der Durchlassspannung und den Sperrbereich. Der Sperrstrom ist klein, bis die Diode in den **Durchbruchbereich** gelangt.
 
-### Beispiel: Berechnung des Diodenstroms im Durchlassbereich
-
-Angenommen, wir haben eine Siliziumdiode mit einem Sättigungsstrom $$ I_S = 1 \, nA $$ und einer Spannung von $$ U = 0.7 \, V $$ bei Raumtemperatur (26 mV thermische Spannung).
-
-Der Diodenstrom ist dann:
-$$ I = 1 \, nA \cdot \left( e^{\frac{0.7}{0.026}} - 1 \right) = 1 \, nA \cdot (10^9 - 1) = 1 \, A $$
-
-### Beispiel: Berechnung der Zener-Diode als Spannungsstabilisator
-
-Eine Zener-Diode mit einer Zenerspannung $$ U_Z = 5.1 \, V $$ und einem Lastwiderstand $$ R_L = 1 \, k\Omega $$ wird an eine Spannungsquelle von $$ 10 \, V $$ angeschlossen. Der Strom $$ I_Z $$ durch die Zener-Diode beträgt:
-$$I_Z = \frac{U_{in} - U_Z}{R_L} = \frac{10 - 5.1}{1000} = 4.9 \, mA$$
+![Diodenkennlinie](/images/diodenkennlinie.png)
