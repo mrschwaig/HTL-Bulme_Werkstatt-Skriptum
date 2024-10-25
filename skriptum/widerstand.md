@@ -18,7 +18,7 @@ Widerstände unterscheiden sich nach ihrem Aufbau und ihrer Funktion:
 Die Widerstandswerte sind oft mit **Farbringen** gekennzeichnet. Ein Standard-Widerstand hat vier bis sechs Farbringe, wobei die ersten zwei (oder drei) Ringe den Widerstandswert angeben, der nächste Ring den Multiplikator und der letzte Ring die Toleranz (Genauigkeit) des Widerstandes:
 
 - **Erste und zweite Farbe**: Ziffernwerte (z.B., Rot = 2, Blau = 6)
-- **Dritte Farbe**: Multiplikator (z.B., Orange = $10^3$)
+- **Dritte Farbe**: Multiplikator (z.B., Orange = 10^3)
 - **Vierte Farbe**: Toleranz (z.B., Gold = ±5 %)
 
 Zum Beispiel steht ein Widerstand mit den Farben Rot, Violett, Gelb und Gold für $27 \times 10^4 \ \Omega$ (also 270.000 Ω oder 270 kΩ) mit einer Toleranz von ±5 %.
