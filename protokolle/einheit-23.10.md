@@ -48,8 +48,9 @@ Entstanden ist folgender Schlatplan:
 
 ![Ausschnitt aus dem gestaltetem Schaltplan (easyEDA)](/images/schaltplan_ampelschaltung.jpg)
 
-> [!TIP]
-> Am Schaltplan haben wir den Mikrocontroller und die Schaltung mit einem `Netzanschluss` verbunden. Dies unterstützt eine bessere Übersicht am Schaltplan.
+{% alert type="tip", style="callout" %}
+Am Schaltplan haben wir den Mikrocontroller und die Schaltung mit einem `Netzanschluss` verbunden. Dies unterstützt eine bessere Übersicht am Schaltplan.
+{% endalert %}
 
 Zu allen Entscheidungen weshalb der Schaltplan so aufgebaut ist, gehe ich in dem Unterpunkt **Übung mit einem Feldeffekttranistor (MOSFET)** ein.
 
@@ -76,13 +77,15 @@ void loop() {
 }
 ```
 
-> [!IMPORTANT]
-> Achte immer darauf die Pins mit dem Befehl `#define xy 0` zu deklarieren. Es handelt sich hier um einem Pre-Compiler-Befehl, welche die Zeichenfolge `xy` mit dem Wert `0` ersetzt.
+{% alert type="warning", style="callout" %}
+Achte immer darauf die Pins mit dem Befehl `#define xy 0` zu deklarieren. Es handelt sich hier um einem Pre-Compiler-Befehl, welche die Zeichenfolge `xy` mit dem Wert `0` ersetzt.
+{% endalert %}
 
 ## Übung mit einem Feldeffekttranistor (MOSFET)
 
-> [!NOTE]
-> Der `MOSFET` ist eine Art Transistor, welche im Gegensatz zum bekannten `NPM-Transistor` mit angelegter Spannung schaltet und durchaus schneller im Schaltvorgang ist. Dies macht ihn in der Mikrocontrollertechnik zu einem relevanten Bauteil, da Mikrocontroller digital immer über Spannung kommunizieren.
+{% alert type="note", style="callout" %}
+Der `MOSFET` ist eine Art Transistor, welche im Gegensatz zum bekannten `NPM-Transistor` mit angelegter Spannung schaltet und durchaus schneller im Schaltvorgang ist. Dies macht ihn in der Mikrocontrollertechnik zu einem relevanten Bauteil, da Mikrocontroller digital immer über Spannung kommunizieren.
+{% endalert %}
 
 Wir bauten eine einfache Tasterschaltung, die mit der Hilfe eines `MOSFET`'s eine Lampe ein und aus schaltet.
 
@@ -90,8 +93,9 @@ Entstanden ist folgender Schlatplan:
 
 ![Ausschnitt aus dem gestaltetem Schaltplan (easyEDA)](/images/schaltplan_uebung-mosfet.jpg)
 
-> [!WARNING]
-> Wichtig zu beachten ist hier der Pull-Down Widerstand (120k), welcher essenziell für das Funktionieren dieser Schaltung  ist. Der Pull-Down Widerstand ist in den Protokollen vom Fachlehrer Martin BÖHM beschrieben.
+{% alert type="warning", style="callout" %}
+Wichtig zu beachten ist hier der Pull-Down Widerstand (120k), welcher essenziell für das Funktionieren dieser Schaltung  ist. Der Pull-Down Widerstand ist in den Protokollen vom Fachlehrer Martin BÖHM beschrieben.
+{% endalert %}
 
 ## Eine Lampe dimmen
 

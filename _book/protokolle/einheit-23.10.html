@@ -245,10 +245,8 @@
 <p></p></div><p></p>
 <p>Entstanden ist folgender Schlatplan:</p>
 <p><img src="../images/schaltplan_ampelschaltung.jpg" alt="Ausschnitt aus dem gestaltetem Schaltplan (easyEDA)"></img></p>
-<blockquote>
-<p>[!TIP]
-Am Schaltplan haben wir den Mikrocontroller und die Schaltung mit einem <code>Netzanschluss</code> verbunden. Dies unterstützt eine bessere Übersicht am Schaltplan.</p>
-</blockquote>
+<p></p><div class="alert callout tip"><p class="title"><i class="fa fa-lightbulb-o"></i>Tip</p><p></p><p>Am Schaltplan haben wir den Mikrocontroller und die Schaltung mit einem <code>Netzanschluss</code> verbunden. Dies unterstützt eine bessere Übersicht am Schaltplan.</p>
+<p></p></div><p></p>
 <p>Zu allen Entscheidungen weshalb der Schaltplan so aufgebaut ist, gehe ich in dem Unterpunkt <strong>Übung mit einem Feldeffekttranistor (MOSFET)</strong> ein.</p>
 <h3 id="berechnung">Berechnung</h3>
 <p>Da die Lampe bereits einen Innenwiderstand verbaut hat, ist dieser Punkt überfällig.</p>
@@ -267,22 +265,16 @@ Am Schaltplan haben wir den Mikrocontroller und die Schaltung mit einem <code>Ne
   <span class="hljs-built_in">digitalWrite</span>(GREEN_BULB, LOW);
 }
 </code></pre>
-<blockquote>
-<p>[!IMPORTANT]
-Achte immer darauf die Pins mit dem Befehl <code>#define xy 0</code> zu deklarieren. Es handelt sich hier um einem Pre-Compiler-Befehl, welche die Zeichenfolge <code>xy</code> mit dem Wert <code>0</code> ersetzt.</p>
-</blockquote>
+<p></p><div class="alert callout warning"><p class="title"><i class="fa fa-exclamation-triangle"></i>Warning</p><p></p><p>Achte immer darauf die Pins mit dem Befehl <code>#define xy 0</code> zu deklarieren. Es handelt sich hier um einem Pre-Compiler-Befehl, welche die Zeichenfolge <code>xy</code> mit dem Wert <code>0</code> ersetzt.</p>
+<p></p></div><p></p>
 <h2 id="übung-mit-einem-feldeffekttranistor-mosfet">Übung mit einem Feldeffekttranistor (MOSFET)</h2>
-<blockquote>
-<p>[!NOTE]
-Der <code>MOSFET</code> ist eine Art Transistor, welche im Gegensatz zum bekannten <code>NPM-Transistor</code> mit angelegter Spannung schaltet und durchaus schneller im Schaltvorgang ist. Dies macht ihn in der Mikrocontrollertechnik zu einem relevanten Bauteil, da Mikrocontroller digital immer über Spannung kommunizieren.</p>
-</blockquote>
+<p></p><div class="alert callout info"><p class="title"><i class="fa fa-info-circle"></i>Note</p><p></p><p>Der <code>MOSFET</code> ist eine Art Transistor, welche im Gegensatz zum bekannten <code>NPM-Transistor</code> mit angelegter Spannung schaltet und durchaus schneller im Schaltvorgang ist. Dies macht ihn in der Mikrocontrollertechnik zu einem relevanten Bauteil, da Mikrocontroller digital immer über Spannung kommunizieren.</p>
+<p></p></div><p></p>
 <p>Wir bauten eine einfache Tasterschaltung, die mit der Hilfe eines <code>MOSFET</code>'s eine Lampe ein und aus schaltet.</p>
 <p>Entstanden ist folgender Schlatplan:</p>
 <p><img src="../images/schaltplan_uebung-mosfet.jpg" alt="Ausschnitt aus dem gestaltetem Schaltplan (easyEDA)"></img></p>
-<blockquote>
-<p>[!WARNING]
-Wichtig zu beachten ist hier der Pull-Down Widerstand (120k), welcher essenziell für das Funktionieren dieser Schaltung  ist. Der Pull-Down Widerstand ist in den Protokollen vom Fachlehrer Martin BÖHM beschrieben.</p>
-</blockquote>
+<p></p><div class="alert callout warning"><p class="title"><i class="fa fa-exclamation-triangle"></i>Warning</p><p></p><p>Wichtig zu beachten ist hier der Pull-Down Widerstand (120k), welcher essenziell für das Funktionieren dieser Schaltung  ist. Der Pull-Down Widerstand ist in den Protokollen vom Fachlehrer Martin BÖHM beschrieben.</p>
+<p></p></div><p></p>
 <h2 id="eine-lampe-dimmen">Eine Lampe dimmen</h2>
 <p>Genauere Informationen sind in den Protokollen vom Fachlehrer Martin BÖHM zu finden.</p>
 <p>Der Code:</p>
@@ -412,7 +404,7 @@ graph TD;
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Einheit-23.10","level":"2.1","depth":1,"previous":{"title":"Übersicht","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["mermaid-md-adoc","alert-msg"],"pluginsConfig":{"mermaid-md-adoc":{},"alert-msg":{"note":{"label":"Note","icon":"fa fa-info-circle","className":"info"},"tip":{"label":"Tip","icon":"fa fa-lightbulb-o","className":"tip"},"warning":{"label":"Warning","icon":"fa fa-exclamation-triangle","className":"warning"},"danger":{"label":"Attention","icon":"fa fa-ban","className":"danger"}},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"protokolle/einheit-23.10.md","mtime":"2024-10-25T10:55:29.484Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2024-10-25T10:56:47.793Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Einheit-23.10","level":"2.1","depth":1,"previous":{"title":"Übersicht","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["mermaid-md-adoc","alert-msg"],"pluginsConfig":{"mermaid-md-adoc":{},"alert-msg":{"note":{"label":"Note","icon":"fa fa-info-circle","className":"info"},"tip":{"label":"Tip","icon":"fa fa-lightbulb-o","className":"tip"},"warning":{"label":"Warning","icon":"fa fa-exclamation-triangle","className":"warning"},"danger":{"label":"Attention","icon":"fa fa-ban","className":"danger"}},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"protokolle/einheit-23.10.md","mtime":"2024-10-25T11:02:02.783Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2024-10-25T11:02:13.074Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
