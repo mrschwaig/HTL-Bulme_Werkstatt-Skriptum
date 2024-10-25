@@ -11,24 +11,24 @@
         
         
     
-    <link rel="stylesheet" href="../gitbook/style.css">
+    <link rel="stylesheet" href="../../gitbook/style.css">
 
     
             
                 
-                <link rel="stylesheet" href="../gitbook/honkit-plugin-alert-msg/style.css">
+                <link rel="stylesheet" href="../../gitbook/honkit-plugin-alert-msg/style.css">
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-highlight/website.css">
+                <link rel="stylesheet" href="../../gitbook/@honkit/honkit-plugin-highlight/website.css">
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/@honkit/honkit-plugin-fontsettings/website.css">
+                <link rel="stylesheet" href="../../gitbook/@honkit/honkit-plugin-fontsettings/website.css">
                 
             
         
@@ -56,14 +56,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../protokolle/einheit-23.10.html" />
+    <link rel="next" href="kondensator.html" />
     
-    
-    <link rel="prev" href="../" />
     
 
     </head>
@@ -94,9 +92,9 @@
         
         
     
-        <li class="chapter " data-level="1.1" data-path="../">
+        <li class="chapter " data-level="1.1" data-path="../../">
             
-                <a href="../">
+                <a href="../../">
             
                     
                     Übersicht
@@ -110,11 +108,25 @@
 
     
         
-        <li class="header">Scriptum</li>
+        <li class="header">Skriptum</li>
         
         
     
-        <li class="chapter active" data-level="2.1" data-path="widerstand.html">
+        <li class="chapter " data-level="2.1" >
+            
+                <span>
+            
+                    
+                    [Grundlagen]
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.1.1" data-path="widerstand.html">
             
                 <a href="widerstand.html">
             
@@ -127,6 +139,24 @@
             
         </li>
     
+        <li class="chapter " data-level="2.1.2" data-path="kondensator.html">
+            
+                <a href="kondensator.html">
+            
+                    
+                    Kondensator
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
 
     
         
@@ -134,9 +164,9 @@
         
         
     
-        <li class="chapter " data-level="3.1" data-path="../protokolle/einheit-23.10.html">
+        <li class="chapter " data-level="3.1" data-path="../../protokolle/einheit-23.10.html">
             
-                <a href="../protokolle/einheit-23.10.html">
+                <a href="../../protokolle/einheit-23.10.html">
             
                     
                     Einheit-23.10
@@ -177,7 +207,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >Widerstand</a>
+        <a href="../.." >Widerstand</a>
     </h1>
 </div>
 
@@ -206,21 +236,21 @@
 <p>Die Widerstandswerte sind oft mit <strong>Farbringen</strong> gekennzeichnet. Ein Standard-Widerstand hat vier bis sechs Farbringe, wobei die ersten zwei (oder drei) Ringe den Widerstandswert angeben, der nächste Ring den Multiplikator und der letzte Ring die Toleranz (Genauigkeit) des Widerstandes:</p>
 <ul>
 <li><strong>Erste und zweite Farbe</strong>: Ziffernwerte (z.B., Rot = 2, Blau = 6)</li>
-<li><strong>Dritte Farbe</strong>: Multiplikator (z.B., Orange = 10^3)</li>
+<li><strong>Dritte Farbe</strong>: Multiplikator (z.B., Orange = <code>10^3</code>)</li>
 <li><strong>Vierte Farbe</strong>: Toleranz (z.B., Gold = ±5 %)</li>
 </ul>
-<p>Zum Beispiel steht ein Widerstand mit den Farben Rot, Violett, Gelb und Gold für $27 \times 10^4 \ \Omega$ (also 270.000 Ω oder 270 kΩ) mit einer Toleranz von ±5 %.</p>
+<p>Zum Beispiel steht ein Widerstand mit den Farben Rot, Violett, Gelb und Gold für <code>27 * 10^4 Ω</code> (also 270.000 Ω oder 270 kΩ) mit einer Toleranz von ±5 %.</p>
 <p>Eine Tabelle der Farbcodes wäre folgende:</p>
-<p><img src="../images/farbcodes-widerstand.jpg" alt="Tabelle der Farbcodes"></img></p>
+<p><img src="../../images/farbcodes-widerstand.jpg" alt="Tabelle der Farbcodes"></img></p>
 <h2 id="funktionsweise">Funktionsweise</h2>
 <p>Ein Widerstand besteht aus einem Material mit hoher elektrischer Leitfähigkeit, das den Stromfluss hemmt. Die Spannung $U$ und der Strom $I$ stehen im Verhältnis zueinander, das durch das <strong>Ohmsche Gesetz</strong> beschrieben wird:</p>
-<p>$$ R = \frac{U}{I} $$</p>
+<p><code>R = U / I</code></p>
 <p>wobei <code>R</code> der Widerstand ist.</p>
 <h2 id="berechnung">Berechnung</h2>
 <p>Zur Berechnung des Gesamtwiderstandes bei mehreren Widerständen im Stromkreis gibt es zwei Fälle:</p>
 <ol>
-<li><strong>Reihenschaltung</strong>: Die Widerstände werden addiert, also $R_{\text{ges}} = R_1 + R_2 + \ldots + R_n$.</li>
-<li><strong>Parallelschaltung</strong>: Die Kehrwerte der Widerstände werden addiert, also $\frac{1}{R_{\text{ges}}} = \frac{1}{R_1} + \frac{1}{R_2} + \ldots + \frac{1}{R_n}$.</li>
+<li><strong>Serienschaltung</strong>: Die Widerstände werden addiert, also <code>R1 + R2 + R3 ..... + Rx</code>.</li>
+<li><strong>Parallelschaltung</strong>: Die Kehrwerte der Widerstände werden addiert, also <code>1 / ( 1 / R1 + 1 / R2 + 1 / R3 + ... 1 / Rx )</code>.</li>
 </ol>
 <p>Widerstände sind entscheidende Bauteile in der Elektrotechnik, die in nahezu jedem elektronischen Gerät zu finden sind.</p>
 
@@ -250,12 +280,8 @@
 
             
                 
-                <a href="../" class="navigation navigation-prev " aria-label="Previous page: Übersicht">
-                    <i class="fa fa-angle-left"></i>
-                </a>
                 
-                
-                <a href="../protokolle/einheit-23.10.html" class="navigation navigation-next " aria-label="Next page: Einheit-23.10">
+                <a href="kondensator.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Kondensator">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -266,7 +292,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Widerstand","level":"2.1","depth":1,"next":{"title":"Einheit-23.10","level":"3.1","depth":1,"path":"protokolle/einheit-23.10.md","ref":"protokolle/einheit-23.10.md","articles":[]},"previous":{"title":"Übersicht","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["mermaid-md-adoc","alert-msg"],"pluginsConfig":{"mermaid-md-adoc":{},"alert-msg":{"note":{"label":"Note","icon":"fa fa-info-circle","className":"info"},"tip":{"label":"Tip","icon":"fa fa-lightbulb-o","className":"tip"},"warning":{"label":"Warning","icon":"fa fa-exclamation-triangle","className":"warning"},"danger":{"label":"Attention","icon":"fa fa-ban","className":"danger"}},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"skriptum/widerstand.md","mtime":"2024-10-25T12:50:37.926Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2024-10-25T12:52:19.732Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Widerstand","level":"2.1.1","depth":2,"next":{"title":"Kondensator","level":"2.1.2","depth":2,"path":"skriptum/Grundlagen/kondensator.md","ref":"skriptum/Grundlagen/kondensator.md","articles":[]},"previous":{"title":"[Grundlagen]","level":"2.1","depth":1,"ref":"","articles":[{"title":"Widerstand","level":"2.1.1","depth":2,"path":"skriptum/Grundlagen/widerstand.md","ref":"skriptum/Grundlagen/widerstand.md","articles":[]},{"title":"Kondensator","level":"2.1.2","depth":2,"path":"skriptum/Grundlagen/kondensator.md","ref":"skriptum/Grundlagen/kondensator.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["mermaid-md-adoc","alert-msg"],"pluginsConfig":{"mermaid-md-adoc":{},"alert-msg":{"note":{"label":"Note","icon":"fa fa-info-circle","className":"info"},"tip":{"label":"Tip","icon":"fa fa-lightbulb-o","className":"tip"},"warning":{"label":"Warning","icon":"fa fa-exclamation-triangle","className":"warning"},"danger":{"label":"Attention","icon":"fa fa-ban","className":"danger"}},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"skriptum/Grundlagen/widerstand.md","mtime":"2024-10-25T13:04:04.337Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2024-10-25T13:07:50.985Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
@@ -316,35 +342,35 @@
             book.classList.remove("honkit-cloak");
         }
     </script>
-    <script src="../gitbook/gitbook.js"></script>
-    <script src="../gitbook/theme.js"></script>
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
     
         
-        <script src="../gitbook/honkit-plugin-mermaid-md-adoc/plugin.js"></script>
-        
-    
-        
-        <script src="../gitbook/honkit-plugin-mermaid-md-adoc/mermaid.min.js"></script>
+        <script src="../../gitbook/honkit-plugin-mermaid-md-adoc/plugin.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        <script src="../../gitbook/honkit-plugin-mermaid-md-adoc/mermaid.min.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
         
     
         
-        <script src="../gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/@honkit/honkit-plugin-fontsettings/fontsettings.js"></script>
         
     
 
