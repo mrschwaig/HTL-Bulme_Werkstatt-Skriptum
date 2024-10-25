@@ -17,7 +17,7 @@ Dabei gilt: Je größer die Kapazität und die Spannung, desto mehr Ladung kann 
 ## Arten von Kondensatoren
 
 1. **Keramikkondensatoren**: Kleine Kapazitäten, oft in Hochfrequenzanwendungen.
-2. **Elektrolytkondensatoren**: Große Kapazitäten, oft gepolt, häufig zur Glättung von Gleichspannungen.
+2. **Elektrolytkondensatoren**: Große Kapazitäten, gepolt, häufig zur Glättung von Gleichspannungen.
 3. **Folienkondensatoren**: Gute Spannungsfestigkeit und Stabilität, oft in Filteranwendungen.
 4. **Tantalkondensatoren**: Hohe Kapazität bei kompakter Größe, meist gepolt.
 5. **Superkondensatoren**: Extrem hohe Kapazitäten, geeignet für Energiespeicheranwendungen.
