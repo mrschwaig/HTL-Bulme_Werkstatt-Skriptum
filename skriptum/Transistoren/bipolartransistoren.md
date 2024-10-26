@@ -20,34 +20,20 @@ Die Funktionsweise der Transistoren basiert darauf, dass ein kleiner Strom an de
 
 Der BJT funktioniert wie ein steuerbarer Widerstand: Ein kleiner Stromfluss an der Basis-Emitter-Strecke steuert einen deutlich größeren Stromfluss zwischen Kollektor und Emitter. Dabei sind zwei Betriebsarten entscheidend:
 
-1. **Aktiver Bereich** (Verstärkermodus): Der Transistor arbeitet als Verstärker, indem ein kleiner Basisstrom `I_B` einen größeren Kollektorstrom `I_C` steuert.
+1. **Aktiver Bereich** (Verstärkermodus): Der Transistor arbeitet als Verstärker, indem ein kleiner Basisstrom $I_B$ einen größeren Kollektorstrom $I_C$ steuert.
 2. **Sättigungsbereich** (Schaltermodus): Der Transistor arbeitet als Schalter. Wenn der Transistor "eingeschaltet" ist, fließt der maximale Strom zwischen Kollektor und Emitter.
 
-Die Verstärkungsfunktion des BJTs wird durch den **Stromverstärkungsfaktor** `β` beschrieben:
-
-```
-β = I_C / I_B
-```
+Die Verstärkungsfunktion des BJTs wird durch den **Stromverstärkungsfaktor** $β$ beschrieben: $ β = \frac{I_C}{I_B} $
 
 wobei:
 
-- `I_C`: der Kollektorstrom,
-- `I_B`: der Basisstrom,
-- `β`: der Verstärkungsfaktor, typischerweise zwischen 20 und 1000 (abhängig vom Transistortyp).
+- $I_C$: der Kollektorstrom,
+- $I_B$: der Basisstrom,
+- $β$: der Verstärkungsfaktor, typischerweise zwischen 20 und 1000 (abhängig vom Transistortyp).
 
-In der Praxis ist der Emitterstrom `I_E` die Summe aus Kollektor- und Basisstrom:
+In der Praxis ist der Emitterstrom $I_E$ die Summe aus Kollektor- und Basisstrom: $ I_E = I_C + I_B $
 
-```
-I_E = I_C + I_B
-```
-
-Dies ergibt die Beziehung:
-
-```
-I_C = β * I_B
-```
-
-und `I_E` lässt sich mit dem **Stromverstärkungsfaktor** des Transistors berechnen.
+Dies ergibt das Verhältnis $ I_C = β * I_B $ und $I_E$ lässt sich mit dem **Stromverstärkungsfaktor** des Transistors berechnen.
 
 ## Funktionsweise im Detail: Betriebspunkte
 
@@ -64,31 +50,27 @@ Ein BJT ist in der Schaltung meist über **Widerstände** und **Spannungsquellen
 
 ### Basis-Emitter-Spannung
 
-Im aktiven Modus liegt zwischen Basis und Emitter eine Spannung `U_BE`, die für Siliziumtransistoren typischerweise etwa 0,7 V beträgt:
-
-```
-U_BE ≈ 0.7 V
-```
+Im aktiven Modus liegt zwischen Basis und Emitter eine Spannung $U_{BE}$, die für Siliziumtransistoren typischerweise etwa 0,7 V beträgt: $ U_BE = 0.7 V $
 
 ### Spannungen und Ströme
 
-1. **Basiswiderstand** `R_B`: Ein Basiswiderstand limitiert den Basisstrom `I_B`, um die Verstärkung zu regulieren:
+1. **Basiswiderstand** $R_B$: Ein Basiswiderstand limitiert den Basisstrom $I_B$, um die Verstärkung zu regulieren:
 
-```
-I_B = (U_in - U_BE) / R_B
-```
+$
+I_B = \frac{U_{in} - U_{BE}}{R_B}
+$
 
-Hier ist `U_in` die Eingangsspannung.
+Hier ist $U_{in}$ die Eingangsspannung.
 
-2. **Kollektorwiderstand** `R_C`: In der Emitter-Schaltung, einer der häufigsten Konfigurationen, wird `R_C` zur Begrenzung des Kollektorstroms verwendet:
+2. **Kollektorwiderstand** $R_C$: In der Emitter-Schaltung, einer der häufigsten Konfigurationen, wird $R_C$ zur Begrenzung des Kollektorstroms verwendet:
 
-```
-U_C = U_CC - I_C * R_C
-```
+$
+U_C = U_{CC} - I_C * R_C
+$
 
-wobei `U_CC` die Versorgungsspannung ist.
+wobei $U_CC$ die Versorgungsspannung ist.
 
-3. **Verstärkung** `U_out/U_in`: Die Spannungsverstärkung in der Emitter-Schaltung wird durch den Quotienten von Ausgangs- und Eingangssignal erreicht. Dies ist jedoch stark abhängig von `R_C`, dem Lastwiderstand und dem Innenwiderstand des Transistors.
+3. **Verstärkung** $\frac{U_{out}}{U_{in}}$: Die Spannungsverstärkung in der Emitter-Schaltung wird durch den Quotienten von Ausgangs- und Eingangssignal erreicht. Dies ist jedoch stark abhängig von $R_C$, dem Lastwiderstand und dem Innenwiderstand des Transistors.
 
 
 ## Anwendung in Verstärker- und Schaltkreisen

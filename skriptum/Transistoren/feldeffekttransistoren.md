@@ -31,43 +31,34 @@ Die Besonderheit des MOSFET liegt in der **isolierten Gate-Schicht** aus Siliziu
 
 MOSFETs können in zwei Betriebsmodi verwendet werden:
 1. **Verarmungsmodus**: Der Kanal leitet, wenn keine Spannung am Gate anliegt.
-2. **Anreicherungsmodus**: Der Kanal leitet erst, wenn eine bestimmte Gate-Source-Spannung `U_{GS}` angelegt wird.
+2. **Anreicherungsmodus**: Der Kanal leitet erst, wenn eine bestimmte Gate-Source-Spannung $U_{GS}$ angelegt wird.
 
 In der Praxis sind **Anreicherungs-MOSFETs** gebräuchlicher, da sie als elektronische Schalter verwendet werden können und eine hohe Effizienz aufweisen.
 
-#### Gate-Source-Spannung (`U_{GS}`)
+#### Gate-Source-Spannung ($U_{GS}$)
 
-Die Spannung `U_{GS}` bestimmt, ob der MOSFET "eingeschaltet" (leitend) oder "ausgeschaltet" (nichtleitend) ist. Für einen n-Kanal-MOSFET muss `U_{GS}` positiv und über einer Schwellenspannung `U_{th}` liegen, damit ein leitfähiger Kanal zwischen Drain und Source entsteht.
+Die Spannung $U_{GS}$ bestimmt, ob der MOSFET "eingeschaltet" (leitend) oder "ausgeschaltet" (nichtleitend) ist. Für einen n-Kanal-MOSFET muss $U_{GS}$ positiv und über einer Schwellenspannung $U_{th}$ liegen, damit ein leitfähiger Kanal zwischen Drain und Source entsteht.
 
-- **Anschalten**: Wenn `U_{GS} > U_{th}`
-- **Ausschalten**: Wenn `U_{GS} < U_{th}`
+- **Anschalten**: Wenn $U_{GS} > U_{th}$
+- **Ausschalten**: Wenn $U_{GS} < U_{th}$
 
-#### Drain-Source-Strom (`I_{DS}`) und Betriebsbereiche
+#### Drain-Source-Strom ($I_{DS}$) und Betriebsbereiche
 
-Der Stromfluss `I_{DS}` wird von der Spannung `U_{DS}` (Drain-Source-Spannung) und `U_{GS}` beeinflusst. Ein MOSFET hat typischerweise drei Betriebsbereiche:
+Der Stromfluss $I_{DS}$ wird von der Spannung $U_{DS}$ (Drain-Source-Spannung) und $U_{GS}$ beeinflusst. Ein MOSFET hat typischerweise drei Betriebsbereiche:
 
-1. **Abschnittsbereich (ohmscher Bereich)**: Hier verhält sich der MOSFET wie ein Widerstand und ist nur teilweise leitend.
-   ```
-   I_{DS} = k * ( U_{GS} - U_{th} ) * U_{DS} - (U_{DS}^2 / 2)
-   ```
-   wobei `k` eine Konstante ist, die von der Geometrie und den Materialeigenschaften des MOSFET abhängt.
+1. **Abschnittsbereich (ohmscher Bereich)**: Hier verhält sich der MOSFET wie ein Widerstand und ist nur teilweise leitend. $ I_{DS} = k * ( U_{GS} - U_{th} ) * U_{DS} - \frac{U_{DS}^2}{2}) $
+   wobei $k$ eine Konstante ist, die von der Geometrie und den Materialeigenschaften des MOSFET abhängt.
 
-2. **Sättigungsbereich (aktiver Bereich)**: Der MOSFET ist vollständig leitend, und der Strom ist nahezu unabhängig von `U_{DS}`. In diesem Bereich eignet sich der MOSFET ideal als Verstärker.
-   ```
-   I_{DS} = (k / 2) * ( U_{GS} - U_{th} )^2
-   ```
+2. **Sättigungsbereich (aktiver Bereich)**: Der MOSFET ist vollständig leitend, und der Strom ist nahezu unabhängig von $U_{DS}$. In diesem Bereich eignet sich der MOSFET ideal als Verstärker. $ I_{DS} = \frac{k}{2} * ( U_{GS} - U_{th} )^2 $
 
-3. **Abschaltbereich**: Hier liegt `U_{GS} < U_{th}`, und es fließt kein Strom durch den Kanal.
+3. **Abschaltbereich**: Hier liegt $U_{GS} < U_{th}$, und es fließt kein Strom durch den Kanal.
 
 ### Wichtige Kenngrößen und Berechnungen
 
-1. **Transkonduktanz** `g_m`: Sie ist ein Maß dafür, wie effizient das Gate den Drain-Source-Strom steuert.
-   ```
-   g_m = ∂I_{DS} / ∂U_{GS} = k * (U_{GS} - U_{th})
-   ```
+1. **Transkonduktanz** $g_m$: Sie ist ein Maß dafür, wie effizient das Gate den Drain-Source-Strom steuert. $ g_m = \frac{∂I_{DS}}{∂U_{GS}} = k * (U_{GS} - U_{th}) $
    Eine höhere Transkonduktanz bedeutet eine höhere Verstärkungsfähigkeit des MOSFETs.
 
-2. **Schwellenspannung** `U_{th}`: Dies ist die Mindestspannung am Gate, bei der ein leitfähiger Kanal gebildet wird.
+2. **Schwellenspannung** $U_{th}$: Dies ist die Mindestspannung am Gate, bei der ein leitfähiger Kanal gebildet wird.
 
 3. **Kanallänge und Kanalbreite**: Diese Parameter beeinflussen die Stromtragfähigkeit und die Geschwindigkeit des MOSFETs.
 
@@ -81,17 +72,16 @@ MOSFETs sind sehr vielseitig einsetzbar und bilden die Grundlage der digitalen E
 
 - **Spannungswandler**: MOSFETs werden auch in DC-DC-Wandlern und Schaltnetzteilen verwendet, da sie hohe Spannungen effizient schalten können.
 
-### Beispielrechnung: MOSFET im Verstärkermodus
+### MOSFET im Verstärkermodus
 
 Angenommen, ein n-Kanal-MOSFET hat die folgenden Eigenschaften:
-- Schwellenspannung `U_{th} = 2 V`
-- Gate-Source-Spannung `U_{GS} = 5 V`
-- Proportionalitätskonstante `k = 0.01 A/V^2`
+- Schwellenspannung $U_{th} = 2 V$
+- Gate-Source-Spannung $U_{GS} = 5 V$
+- Proportionalitätskonstante $k = 0.01 A/V^2$
 
-Der Drain-Source-Strom im Sättigungsbereich lässt sich dann berechnen als:
-```
-I_{DS} = (k / 2) * ( U_{GS} - U_{th} )^2 = (0.01 / 2) * (5 - 2)^2 = 0.045 A = 45 mA
-```
+Der Drain-Source-Strom im Sättigungsbereich lässt sich dann berechnen als: 
+
+$ I_{DS} = \frac{k}{2} * ( U_{GS} - U_{th} )^2 = \frac{0.01}{2} * (5 - 2)^2 = 0.045 A = 45 mA $
 
 ### Zusammenfassung
 

@@ -10,30 +10,34 @@ Im **p-n-Übergang** der Diode treffen Elektronen aus dem n-Bereich auf Löcher 
 
 ### Spannungsmodi der Diode
 
-1. **Durchlassrichtung**: Bei einer positiven Spannung am p-Bereich und einer negativen am n-Bereich verringert sich die Sperrschicht, und die Diode leitet Strom. Die Mindestspannung, die zum Leiten benötigt wird, ist die **Durchlassspannung** `U_F`.
+1. **Durchlassrichtung**: Bei einer positiven Spannung am p-Bereich und einer negativen am n-Bereich verringert sich die Sperrschicht, und die Diode leitet Strom. Die Mindestspannung, die zum Leiten benötigt wird, ist die **Durchlassspannung** $U_F$.
    
-   Für Siliziumdioden liegt diese Spannung bei etwa `0.7 V`, für Germaniumdioden bei `0.3 V`.
+   Für Siliziumdioden liegt diese Spannung bei etwa $0.7 V$, für Germaniumdioden bei $0.3 V$.
 
-2. **Sperrrichtung**: Bei einer negativen Spannung am p-Bereich und einer positiven am n-Bereich vergrößert sich die Sperrschicht, und die Diode sperrt den Stromfluss. Ab einer bestimmten Spannung, der **Durchbruchspannung** `U_BR`, kann es jedoch zu einem plötzlichen Anstieg des Stroms kommen.
+2. **Sperrrichtung**: Bei einer negativen Spannung am p-Bereich und einer positiven am n-Bereich vergrößert sich die Sperrschicht, und die Diode sperrt den Stromfluss. Ab einer bestimmten Spannung, der **Durchbruchspannung** $U_BR$, kann es jedoch zu einem plötzlichen Anstieg des Stroms kommen.
 
 ## Diodenkennlinie
 
 Die **Diodenkennlinie** beschreibt die Beziehung zwischen der angelegten Spannung `U` und dem fließenden Strom `I` und zeigt zwei Hauptbereiche:
-- **Durchlasskennlinie**: Sobald `U` ≤ `U_F`, steigt der Strom exponentiell an.
-- **Sperrkennlinie**: Bei negativen Spannungen fließt nur ein minimaler Sperrstrom, bis die Durchbruchspannung `U_BR` erreicht wird.
+- **Durchlasskennlinie**: Sobald $U$ ≤ $U_F$, steigt der Strom exponentiell an.
+- **Sperrkennlinie**: Bei negativen Spannungen fließt nur ein minimaler Sperrstrom, bis die Durchbruchspannung $U_BR$ erreicht wird.
 
 ![Diodenkennlinie](/images/diodenkennlinie.png)
 
 ### Strom-Spannungs-Gleichung der Diode
 
 Die Strom-Spannungs-Charakteristik einer idealen Diode wird durch die **Diodengleichung** beschrieben:
-$$I = I_S \cdot \left( e^{\frac{U}{n \cdot V_T}} - 1 \right)$$
+
+$
+I = I_S \cdot \left( e^{\frac{U}{n \cdot V_T}} - 1 \right)
+$
+
 wobei:
 - `I`: der Diodenstrom,
 - `I_S`: der **Sättigungsstrom** (typisch sehr klein),
 - `U`: die anliegende Spannung,
 - `n`: der Idealfaktor (meistens 1 bis 2),
-- `V_T`: die **thermische Spannung**: $$ _T = \frac{k \cdot T}{q} = 26 \, mV $$ bei Raumtemperatur (300 K).
+- `V_T`: die **thermische Spannung**: $ _T = \frac{k \cdot T}{q} = 26 \, mV $ bei Raumtemperatur (300 K).
 
 ## Typen von Dioden und ihre Anwendungen
 
@@ -41,7 +45,7 @@ wobei:
 
 2. **Schottky-Diode**: Eine Diode mit geringerer Durchlassspannung (etwa 0.2–0.3 V), die eine schnelle Schaltgeschwindigkeit bietet. Sie eignet sich ideal für Hochfrequenz- und Gleichrichterschaltungen mit niedrigem Spannungsabfall.
 
-3. **Zener-Diode**: Eine spezielle Diode, die in Sperrrichtung betrieben wird. Sie lässt bei einer genau definierten Durchbruchspannung $$ U_Z $$ Strom fließen und dient häufig zur Spannungsstabilisierung in Schaltungen. Die Zener-Diode wird bei Spannungsreferenzen und Überspannungsschutz eingesetzt.
+3. **Zener-Diode**: Eine spezielle Diode, die in Sperrrichtung betrieben wird. Sie lässt bei einer genau definierten Durchbruchspannung $ U_Z $ Strom fließen und dient häufig zur Spannungsstabilisierung in Schaltungen. Die Zener-Diode wird bei Spannungsreferenzen und Überspannungsschutz eingesetzt.
 
 4. **Leuchtdiode (LED)**: Die LED emittiert Licht, wenn Strom in Durchlassrichtung fließt. Die Farbe des Lichts hängt vom verwendeten Halbleitermaterial ab. LEDs finden breite Anwendung in Displays, Beleuchtung und Signalanzeigen.
 

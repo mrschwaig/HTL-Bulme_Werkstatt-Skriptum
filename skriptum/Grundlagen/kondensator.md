@@ -7,11 +7,7 @@ Ein **Kondensator** ist ein elektronisches Bauteil, das elektrische Ladung speic
 
 Ein Kondensator besteht aus zwei leitenden Platten, die durch ein nichtleitendes Material, das sogenannte **Dielektrikum**, voneinander getrennt sind. Wenn eine Spannung an den Kondensator angelegt wird, wandern Elektronen auf eine Platte, wodurch diese negativ geladen wird, während die andere Platte positiv geladen ist. Die entstehende Ladung bleibt gespeichert, bis der Kondensator entladen wird.
 
-Die Beziehung zwischen der gespeicherten Ladung `Q`, der Kapazität `C`, und der angelegten Spannung `U` lautet:
-
-```
-Q = C * U
-```
+Die Beziehung zwischen der gespeicherten Ladung $Q$, der Kapazität $C$, und der angelegten Spannung $U$ lautet: $ Q = C * U $
 Dabei gilt: Je größer die Kapazität und die Spannung, desto mehr Ladung kann gespeichert werden.
 
 ## Arten von Kondensatoren
@@ -28,34 +24,16 @@ Die Berechnung der Kapazität und der Reaktion eines Kondensators in einem Strom
 
 ### Berechnung der Gesamtkapazität
 
-1. **Serienschaltung**: Bei einer Reihenschaltung von Kondensatoren ergibt sich die Gesamtkapazität `C_ges` aus dem Kehrwert der Summe der Einzelkapazitäten:
+1. **Serienschaltung**: Bei einer Reihenschaltung von Kondensatoren ergibt sich die Gesamtkapazität $C_{ges}$ aus dem Kehrwert der Summe der Einzelkapazitäten: $ \frac{1}{C_{ges}} = \frac{1}{C_1} + \frac{1}{C_2} + ... + \frac{1}{C_n} $ Dies führt dazu, dass die Gesamtkapazität immer kleiner ist als die kleinste Einzelkapazität.
 
-```
-1 / C_ges = 1 / C_1 + 1 / C_2 + ... + 1 / C_n
-```
-   Dies führt dazu, dass die Gesamtkapazität immer kleiner ist als die kleinste Einzelkapazität.
-
-2. **Parallelschaltung**: Bei einer Parallelschaltung von Kondensatoren summieren sich die Kapazitäten direkt:
-
-```
-C_ges = C_1 + C_2 + ... + C_n
-```
-   Die Gesamtkapazität ist hier größer als jede Einzelkapazität und wird hauptsächlich verwendet, um die Kapazität zu erhöhen.
+2. **Parallelschaltung**: Bei einer Parallelschaltung von Kondensatoren summieren sich die Kapazitäten direkt: $ C_ges = C_1 + C_2 + ... + C_n $ Die Gesamtkapazität ist hier größer als jede Einzelkapazität und wird hauptsächlich verwendet, um die Kapazität zu erhöhen.
 
 ### Lade- und Entladevorgänge
 
 Der Lade- und Entladevorgang eines Kondensators in einem Gleichstromkreis ist zeitabhängig und wird von einer **Exponentialfunktion** beschrieben:
 
-- Beim Laden gilt:
-
-```
-U(t) = U_0 * (1 - e^(-t / (RC)))
-```
-- Beim Entladen lautet die Gleichung:
-
-```
-U(t) = U_0 * e^(-t / (RC))
-```
+- Beim Laden gilt: $ U(t) = U_0 * (1 - e^{\frac{-t}{RC}}) $
+- Beim Entladen lautet die Gleichung: $ U(t) = U_0 * e^{\frac{-t}{RC}}) $
 
 wobei:
 - `U_0` die anfängliche Spannung ist,

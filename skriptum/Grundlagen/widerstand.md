@@ -18,10 +18,10 @@ Widerstände unterscheiden sich nach ihrem Aufbau und ihrer Funktion:
 Die Widerstandswerte sind oft mit **Farbringen** gekennzeichnet. Ein Standard-Widerstand hat vier bis sechs Farbringe, wobei die ersten zwei (oder drei) Ringe den Widerstandswert angeben, der nächste Ring den Multiplikator und der letzte Ring die Toleranz (Genauigkeit) des Widerstandes:
 
 - **Erste und zweite Farbe**: Ziffernwerte (z.B., Rot = 2, Blau = 6)
-- **Dritte Farbe**: Multiplikator (z.B., Orange = `10^3`)
+- **Dritte Farbe**: Multiplikator (z.B., Orange = $10^3$)
 - **Vierte Farbe**: Toleranz (z.B., Gold = ±5 %)
 
-Zum Beispiel steht ein Widerstand mit den Farben Rot, Violett, Gelb und Gold für `27 * 10^4 Ω` (also 270.000 Ω oder 270 kΩ) mit einer Toleranz von ±5 %.
+Zum Beispiel steht ein Widerstand mit den Farben Rot, Violett, Gelb und Gold für $27 * 10^4 Ω$ (also 270.000 Ω oder 270 kΩ) mit einer Toleranz von ±5 %.
 
 Eine Tabelle der Farbcodes wäre folgende:
 
@@ -31,7 +31,7 @@ Eine Tabelle der Farbcodes wäre folgende:
 
 Ein Widerstand besteht aus einem Material mit hoher elektrischer Leitfähigkeit, das den Stromfluss hemmt. Die Spannung $U$ und der Strom $I$ stehen im Verhältnis zueinander, das durch das **Ohmsche Gesetz** beschrieben wird:
 
-`R = U / I`
+$R = U / I$
 
 wobei `R` der Widerstand ist.
 
@@ -39,7 +39,7 @@ wobei `R` der Widerstand ist.
 
 Zur Berechnung des Gesamtwiderstandes bei mehreren Widerständen im Stromkreis gibt es zwei Fälle:
 
-1. **Serienschaltung**: Die Widerstände werden addiert, also `R1 + R2 + R3 ..... + Rx`.
-2. **Parallelschaltung**: Die Kehrwerte der Widerstände werden addiert, also `1 / ( 1 / R1 + 1 / R2 + 1 / R3 + ... 1 / Rx )`.
+1. **Serienschaltung**: Die Widerstände werden addiert, also $R_1 + R_2 + R_3 ..... + R_x$.
+2. **Parallelschaltung**: Die Kehrwerte der Widerstände werden addiert, also $ \frac{1}{ \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + ... \frac{1}{R_x} }$.
 
 Widerstände sind entscheidende Bauteile in der Elektrotechnik, die in nahezu jedem elektronischen Gerät zu finden sind.
