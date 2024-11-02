@@ -33,11 +33,11 @@ I = I_S \cdot \left( e^{\frac{U}{n \cdot V_T}} - 1 \right)
 $
 
 wobei:
-- `I`: der Diodenstrom,
-- `I_S`: der **Sättigungsstrom** (typisch sehr klein),
-- `U`: die anliegende Spannung,
-- `n`: der Idealfaktor (meistens 1 bis 2),
-- `V_T`: die **thermische Spannung**: $ _T = \frac{k \cdot T}{q} = 26 \, mV $ bei Raumtemperatur (300 K).
+- $I$: der Diodenstrom,
+- $I_S$: der **Sättigungsstrom** (typisch sehr klein),
+- $U$: die anliegende Spannung,
+- $n$: der Idealfaktor (meistens 1 bis 2),
+- $V_T$: die **thermische Spannung**: $ _T = \frac{k \cdot T}{q} = 26 \, mV $ bei Raumtemperatur (300 K).
 
 ## Typen von Dioden und ihre Anwendungen
 

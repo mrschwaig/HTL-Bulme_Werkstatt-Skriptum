@@ -31,9 +31,9 @@ Eine Tabelle der Farbcodes wäre folgende:
 
 Ein Widerstand besteht aus einem Material mit hoher elektrischer Leitfähigkeit, das den Stromfluss hemmt. Die Spannung $U$ und der Strom $I$ stehen im Verhältnis zueinander, das durch das **Ohmsche Gesetz** beschrieben wird:
 
-$R = U / I$
+$R = \frac{U}{I}$
 
-wobei `R` der Widerstand ist.
+wobei $R$ der Widerstand ist.
 
 ## Berechnung
 
