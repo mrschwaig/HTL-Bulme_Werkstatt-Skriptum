@@ -20,7 +20,7 @@
      5. Code Architektur
 
 # Protokoll
-
+.
 ## Ampelschaltung
 
 Ziel der Ampelschaltung war es, eine Ampelschaltung umzusetzen, welche nach den österreichischen Anforderungen schaltet.
