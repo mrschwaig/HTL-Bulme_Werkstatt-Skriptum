@@ -10,8 +10,8 @@
     * [Kondensator](skriptum/Grundlagen/kondensator.md)
     * [Diode](skriptum/Grundlagen/diode.md)
 * [Transistoren](skriptum/Transistoren/README.md)
-    * [Bipolartransistoren](skriptum/Transistoren/bipolartransistoren.md)
-    * [Feldeffekttransistoren](skriptum/Transistoren/feldeffekttransistoren.md)
+    * [Bipolartransistor](skriptum/Transistoren/bipolartransistoren.md)
+    * [Feldeffekttransistor](skriptum/Transistoren/feldeffekttransistoren.md)
 * [Mikrocontroller](skriptum/Mikrocontroller/mikrocontroller.md)
     * [Libarys](skriptum/Mikrocontroller/libarys.md)
 
