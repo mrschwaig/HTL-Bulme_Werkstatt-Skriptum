@@ -367,8 +367,9 @@
 <li>Umsetzung<ol>
 <li>Schaltplan erstellen mit easyEDA (Protokoll 23.10 <a href="einheit-23.10.html">siehe hier</a>)</li>
 <li>Schaltung berechnen</li>
-<li>Prototypen mit der Hilfe des Steckbretts schaltplangetreu aufbauen</li>
+<li>Prototypen mit der Hilfe des Steckbretts schaltplan getreu aufbauen</li>
 <li>Mikrocontroller (ESP32) programmieren</li>
+<li>Code Architektur</li>
 </ol>
 </li>
 </ul>
@@ -381,6 +382,10 @@
 <p>Dies ist bereits im Protokoll vom 23.10 zufinden. Es kann <a href="einheit-23.10.html">hier</a> geöffnet werden.</p>
 <h3 id="berechnung">Berechnung</h3>
 <p>Da die Lampe bereits einen Innenwiderstand verbaut hat, ist dieser Punkt überfällig.</p>
+<h3 id="aufbau">Aufbau</h3>
+<p>Der Aufbau kann den folgenden zwei Bildern angeschaut werden:</p>
+<p><img src="../images/Einheit-06.11-Aufbau_1.JPG" alt="Aufbau am Steckbrett"></img>
+<img src="../images/Einheit-06.11-Aufbau_2.JPG" alt="Aufbau am Steckbrett"></img></p>
 <h3 id="programmierung">Programmierung</h3>
 <p>Wir nutzten wir <code>switch case</code>. Diese Funktion hat folgenden Syntax:</p>
 <pre><code class="lang-c++"><span class="hljs-keyword">switch</span>(expression) {
@@ -477,7 +482,7 @@
 </code></pre>
 <p></p><div class="alert callout info"><p class="title"><i class="fa fa-info-circle"></i>Note</p><p></p><p><code>uint8_t</code> ist ein unsigned Int (eine Integer-Variable mit 32-Bit Speicher Verbrauch -&gt; kann von 0 bis </p>
 <p></p></div><p></p>
-<h2 id="code-architektur">Code Architektur</h2>
+<h3 id="code-architektur">Code Architektur</h3>
 <p>Der Code kann über folgenden Flowchart dargestellt werden:</p>
 <div class="mermaid">
 flowchart LR
@@ -534,7 +539,7 @@ flowchart LR
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Einheit-06.11","level":"3.2","depth":1,"previous":{"title":"Einheit-23.10","level":"3.1","depth":1,"path":"protokolle/einheit-23.10.md","ref":"protokolle/einheit-23.10.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["mermaid-md-adoc","alert-msg","katex"],"pluginsConfig":{"mermaid-md-adoc":{},"alert-msg":{"note":{"label":"Note","icon":"fa fa-info-circle","className":"info"},"tip":{"label":"Tip","icon":"fa fa-lightbulb-o","className":"tip"},"warning":{"label":"Warning","icon":"fa fa-exclamation-triangle","className":"warning"},"danger":{"label":"Attention","icon":"fa fa-ban","className":"danger"}},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"protokolle/einheit-06.11.md","mtime":"2024-11-12T19:31:04.322Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2024-11-12T19:32:37.762Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Einheit-06.11","level":"3.2","depth":1,"previous":{"title":"Einheit-23.10","level":"3.1","depth":1,"path":"protokolle/einheit-23.10.md","ref":"protokolle/einheit-23.10.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["mermaid-md-adoc","alert-msg","katex"],"pluginsConfig":{"mermaid-md-adoc":{},"alert-msg":{"note":{"label":"Note","icon":"fa fa-info-circle","className":"info"},"tip":{"label":"Tip","icon":"fa fa-lightbulb-o","className":"tip"},"warning":{"label":"Warning","icon":"fa fa-exclamation-triangle","className":"warning"},"danger":{"label":"Attention","icon":"fa fa-ban","className":"danger"}},"katex":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"protokolle/einheit-06.11.md","mtime":"2024-11-12T19:39:20.343Z","type":"markdown"},"gitbook":{"version":"6.0.2","time":"2024-11-12T19:39:30.463Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

@@ -15,8 +15,9 @@
    - Umsetzung
      1. Schaltplan erstellen mit easyEDA (Protokoll 23.10 [siehe hier](einheit-23.10.md))
      2. Schaltung berechnen
-     3. Prototypen mit der Hilfe des Steckbretts schaltplangetreu aufbauen
+     3. Prototypen mit der Hilfe des Steckbretts schaltplan getreu aufbauen
      4. Mikrocontroller (ESP32) programmieren
+     5. Code Architektur
 
 # Protokoll
 
@@ -31,6 +32,13 @@ Dies ist bereits im Protokoll vom 23.10 zufinden. Es kann [hier](einheit-23.10.m
 ### Berechnung
 
 Da die Lampe bereits einen Innenwiderstand verbaut hat, ist dieser Punkt überfällig.
+
+### Aufbau
+
+Der Aufbau kann den folgenden zwei Bildern angeschaut werden:
+
+![Aufbau am Steckbrett](/images/Einheit-06.11-Aufbau_1.JPG)
+![Aufbau am Steckbrett](/images/Einheit-06.11-Aufbau_2.JPG)
 
 ### Programmierung
 
@@ -142,7 +150,7 @@ void loop()
 `uint8_t` ist ein unsigned Int (eine Integer-Variable mit 32-Bit Speicher Verbrauch -> kann von 0 bis $2^{32}$ also 4294967295 speichern) welche auf 8-Bit Speicher Verbrauch beschränkt ist. Daher kann sie $2^8$ also von 0 bis 255 (256 Werte) speichern.
 {% endalert %}
 
-## Code Architektur
+### Code Architektur
 
 Der Code kann über folgenden Flowchart dargestellt werden:
 
