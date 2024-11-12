@@ -18,3 +18,4 @@
 
 ### Protokolle
 * [Einheit-23.10](protokolle/einheit-23.10.md)
+* [Einheit-06.11](protokolle/einheit-06.11.md)
