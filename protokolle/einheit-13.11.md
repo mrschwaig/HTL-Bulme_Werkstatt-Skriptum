@@ -20,6 +20,7 @@
     - Ziel: Eine Lampe mit einem Taster ein und aus zu Schalten
 3. **Der Halleffektsensor**
     - Ziel: Ein magnetisches Feld mit einem Mikrocontroller messen zu können
+
 # Protokoll
 
 ## Übung: NPN-Transistor als Schalter
