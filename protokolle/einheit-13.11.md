@@ -45,7 +45,7 @@ $
 $I_b$ entspricht dabei $ \frac{I_C}{h_{FE}} $.
 
 {% alert type="note", style="callout" %}
-$h_{FE}$ kann aus dem Datenblatt des Transistors abgelesen werden. $h_{FE}$ entspricht dabei den Verstärkungswert des Transitors. $I_b$ ist der Basisstrom unter Berücksichtigung des Verstärkungswert. $I_C$ hingegen ist der Basisstrom ohne Berücksichtigung.
+h_FE kann aus dem Datenblatt des Transistors abgelesen werden. h_FE entspricht dabei den Verstärkungswert des Transitors. I_b ist der Basisstrom unter Berücksichtigung des Verstärkungswert. I_C hingegen ist der Basisstrom ohne Berücksichtigung.
 {% endalert %}
 
 Weiteres zu dem NPN-Transistor kann unter [diesem Skriptumseintrag](/skriptum/Transistoren/bipolartransistoren.md) nachgelesen werden.
