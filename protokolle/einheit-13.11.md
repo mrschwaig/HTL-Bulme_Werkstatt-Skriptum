@@ -20,7 +20,6 @@
     - Ziel: Eine Lampe mit einem Taster ein und aus zu Schalten
 3. **Der Halleffektsensor**
     - Ziel: Ein magnetisches Feld mit einem Mikrocontroller messen zu können
-
 # Protokoll
 
 ## Übung: NPN-Transistor als Schalter
@@ -67,7 +66,7 @@ Dies kann aus [diesem Skriptumseintrag](/skriptum/relais.md) entnommen werden.
 
 ### Aufbau
 
-{% alert type="important", style="callout" %}
+{% alert type="danger", style="callout" %}
 In folgendem Schaltplan wurde weder der Basiswiderstand des Transistors noch die Spannung korrekt eingetragen. Der Basiswiderstand sollte bei 3,3 V angelegter Spannung (bei Basis und Kollektor) 690 Ohm betragen.
 {% endalert %}
 
