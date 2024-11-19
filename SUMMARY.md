@@ -12,6 +12,7 @@
 * [Transistoren](skriptum/Transistoren/README.md)
     * [Bipolartransistor](skriptum/Transistoren/bipolartransistoren.md)
     * [Feldeffekttransistor](skriptum/Transistoren/feldeffekttransistoren.md)
+* [Relai](skriptum/relais.md)
 * [Mikrocontroller](skriptum/Mikrocontroller/mikrocontroller.md)
     * [Libarys](skriptum/Mikrocontroller/libarys.md)
 
