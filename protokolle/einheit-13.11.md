@@ -57,6 +57,10 @@ Ziel der Übung war ähnlich zu der des Transistors. Der Unterschied: Diesmal so
 
 ### Schaltplan
 
+{% alert type="danger", style="callout" %}
+In folgendem Schaltplan wurde weder der Basiswiderstand des Transistors noch die Spannung korrekt eingetragen. Der Basiswiderstand sollte bei 3,3 V angelegter Spannung (bei Basis und Kollektor) 690 Ohm betragen.
+{% endalert %}
+
 ![Schaltplan der Übung](/images/schaltplan-relai-als-schalter.jpg)
 
 Auf dem Schaltplan ist ein Übungsrelai zu sehen, welches durch einen Transistor und einem Taster gesteuert wird.
@@ -67,9 +71,6 @@ Dies kann aus [diesem Skriptumseintrag](/skriptum/relais.md) entnommen werden.
 
 ### Aufbau
 
-{% alert type="danger", style="callout" %}
-In folgendem Schaltplan wurde weder der Basiswiderstand des Transistors noch die Spannung korrekt eingetragen. Der Basiswiderstand sollte bei 3,3 V angelegter Spannung (bei Basis und Kollektor) 690 Ohm betragen.
-{% endalert %}
 
 ![Aufbau der Übung](/images/aufbau-relai-schaltung.JPG)
 
