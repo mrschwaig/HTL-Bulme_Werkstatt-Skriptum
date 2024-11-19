@@ -1,9 +1,7 @@
 
-# Das Relais – Funktionsweise und Anwendung
+# Das Relai
 
-Ein **Relais** ist ein elektrisch betriebenes Schaltgerät, das mithilfe eines kleinen Steuerstroms einen größeren Laststrom in einem anderen Stromkreis ein- und ausschalten kann. Es wird häufig verwendet, um eine elektrische Trennung zwischen Steuer- und Laststromkreis zu erreichen und um hohe Ströme oder Spannungen zu schalten, die direkt von einer Steuerschaltung nicht gehandhabt werden können.
-
----
+Ein **Relai** ist ein elektrisch betriebenes Schaltgerät, das mithilfe eines kleinen Steuerstroms einen größeren Laststrom in einem anderen Stromkreis ein- und ausschalten kann. Es wird häufig verwendet, um eine elektrische Trennung zwischen Steuer- und Laststromkreis zu erreichen und um hohe Ströme oder Spannungen zu schalten, die direkt von einer Steuerschaltung nicht gehandhabt werden können.
 
 ## Funktionsweise eines Relais
 
@@ -14,6 +12,8 @@ Ein Relais besteht aus den folgenden Hauptkomponenten:
 3. **Federmechanismus**: Dieser hält den Schalter in der Ausgangsposition, wenn kein Magnetismus wirkt.
 4. **Anker**: Ein bewegliches Eisenstück, das durch den Elektromagneten angezogen wird.
 
+![Aufbau Relai](/images/relai-funktionsweise.png)
+
 ### Arbeitsweise:
 
 1. **Ruhezustand**: Wenn kein Strom durch die Spule fließt, bleibt der Anker durch die Feder in seiner Ausgangsposition. Die Kontakte bleiben in ihrer voreingestellten Position: **normal geschlossen (NC)** oder **normal geöffnet (NO)**.
@@ -22,31 +22,28 @@ Ein Relais besteht aus den folgenden Hauptkomponenten:
     - Wenn der Kontakt zuvor geöffnet war (NO), wird er geschlossen.
     - Wenn der Kontakt zuvor geschlossen war (NC), wird er geöffnet.
 
-3. **Schalten des Laststroms**: Der Schaltvorgang im Relais ermöglicht es, einen Laststromkreis zu schließen oder zu unterbrechen. Dabei kann der Laststrom wesentlich größer sein als der Steuerstrom.
+3. **Schalten des Laststroms**: Der Schaltvorgang im Relai ermöglicht es, einen Laststromkreis zu schließen oder zu unterbrechen. Dabei kann der Laststrom wesentlich größer sein als der Steuerstrom.
 
 4. **Rückstellung**: Wenn der Steuerstrom abgeschaltet wird, verschwindet das Magnetfeld, und die Feder bringt den Anker in die Ausgangsposition zurück.
 
----
 
 ## Arten von Relais
 
-1. **Mechanisches Relais**: Arbeitet rein mechanisch mit den oben beschriebenen Prinzipien.
-2. **Halbleiter-Relais (SSR)**: Nutzt elektronische Bauteile wie Transistoren, um Schaltvorgänge durchzuführen.
-3. **Zeitrelais**: Schaltet den Laststromkreis nach einer definierten Verzögerung ein oder aus.
-4. **Koppelrelais**: Wird verwendet, um Signale zwischen verschiedenen Spannungs- oder Stromkreisen zu übertragen.
+1. **Mechanisches Relai**: Arbeitet rein mechanisch mit den oben beschriebenen Prinzipien.
+2. **Halbleiter-Relai (SSR)**: Nutzt elektronische Bauteile wie Transistoren, um Schaltvorgänge durchzuführen.
+3. **Zeitrelai**: Schaltet den Laststromkreis nach einer definierten Verzögerung ein oder aus.
+4. **Koppelrelai**: Wird verwendet, um Signale zwischen verschiedenen Spannungs- oder Stromkreisen zu übertragen.
 
----
 
-## Praktische Anwendungen von Relais
+## Praktische Anwendungen von Relai
 
-Relais sind in vielen Bereichen unverzichtbar, insbesondere wenn hohe Ströme oder Spannungen geschaltet werden müssen. Hier einige Anwendungsbeispiele:
+Relai sind in vielen Bereichen unverzichtbar, insbesondere wenn hohe Ströme oder Spannungen geschaltet werden müssen. Hier einige Anwendungsbeispiele:
 
 1. **Automobilindustrie**: Relais schalten große Verbraucher wie Scheinwerfer, Heizungen oder Hupe.
 2. **Haushaltsgeräte**: Waschmaschinen oder Geschirrspüler nutzen Relais, um Pumpen oder Motoren zu steuern.
 3. **Industrieanwendungen**: Relais steuern Maschinen oder sichern Steuerkreise ab.
 4. **Sicherheitsanwendungen**: In Alarmanlagen und Sicherheitsschaltungen können Relais verwendet werden, um Alarmsysteme zu aktivieren.
 
----
 
 ## Vor- und Nachteile von Relais
 
@@ -62,11 +59,10 @@ Relais sind in vielen Bereichen unverzichtbar, insbesondere wenn hohe Ströme od
 3. **Größe**: Relais sind größer und schwerer als moderne elektronische Schalter.
 4. **Geräuschentwicklung**: Mechanische Relais machen ein Klickgeräusch beim Schalten.
 
----
 
-## Vergleich: Relais vs. Transistor
+## Vergleich: Relai vs. Transistor
 
-| **Kriterium**        | **Relais**                            | **Transistor**                         |
+| **Kriterium**        | **Relai**                            | **Transistor**                         |
 |-----------------------|---------------------------------------|----------------------------------------|
 | **Schaltgeschwindigkeit** | Langsam (ms-Bereich)                | Sehr schnell (ns-Bereich)              |
 | **Laststrom**         | Sehr hohe Ströme und Spannungen       | Begrenzter Stromfluss                  |
@@ -75,7 +71,6 @@ Relais sind in vielen Bereichen unverzichtbar, insbesondere wenn hohe Ströme od
 | **Steuerspannung**    | Niedrig (oft direkt steuerbar)        | Benötigt oft Treiberschaltungen        |
 | **Elektrische Isolation**| Ja, durch mechanische Trennung       | Nein, zusätzliche Maßnahmen nötig      |
 
----
 
 ## Warum Relais und nicht Transistoren?
 
